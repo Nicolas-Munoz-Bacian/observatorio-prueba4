@@ -251,7 +251,7 @@ a{
     justify-content: center;
     align-items: center;
     font-family: var(--fuente-calibri);
-    margin:  2rem 0rem 0rem 0rem;
+    margin:  2rem 0rem 2rem 0rem;
 }
 
 .contenido {
@@ -272,7 +272,7 @@ a{
     align-items: center;
     flex-wrap: wrap-reverse;
     font-family: var(--fuente-calibri);
-    margin:  1rem 0rem 3rem 0rem;
+    margin:  1rem 2rem;
 }
 
 .contenido_2 {
@@ -315,6 +315,7 @@ a{
     width: auto;
     justify-content: center;
     flex-direction: column-reverse;
+    position:relative;
 }
 
 .presentación_enlaces{
@@ -360,5 +361,4 @@ a{
     padding: 12px;
     height: auto;
     display: flex;
-    flex-wrap: wrap-reverse;
 }

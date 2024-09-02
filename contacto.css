@@ -335,6 +335,8 @@ a{
     width: auto;
     justify-content: center;
     flex-direction: column-reverse;
+    position: flex;
+    display: flex;
 }
 
 .presentación_enlaces{
@@ -368,11 +370,10 @@ a{
 
 .derechos_de_autor_text .p_footer{
     position: initial;
-    font-size: 34%;
+    font-size: 38%;
     color: var(--color-terciario);
     font-family: var(--fuente-calibri);
     display: flex;
-    flex-direction: column-reverse;
 }
 
 .footer{
@@ -380,5 +381,4 @@ a{
     padding: 12px;
     height: auto;
     display: flex;
-    flex-wrap: wrap-reverse;
 }
